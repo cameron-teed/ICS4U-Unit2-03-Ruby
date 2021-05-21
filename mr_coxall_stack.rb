@@ -28,7 +28,7 @@ class MrCoxallStack
 
   # Method that removes the last element and returns it
   def pop_stack
-    raise RangeError if @array_list.size.to_i.zero?
+    raise RangeError if @array_list.empty?
 
     @array_list.pop
   end
